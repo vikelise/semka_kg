@@ -7,63 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
     </style>
     <title>Document</title>
 </head>
 
-<body style="margin: 0; padding: 0;">
-    <header>
-        <nav class="navbar bg-body-tertiary"
-            style="background-color: #e1e6e9; display: flex; justify-content: space-between;">
-            <div class="container-fluid">
-                <img src="images/logo.png" alt="Logo" width="250" height="80" style="margin: 10px;">
-            </div>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img class="header__logo" src="images/Logo_vstu_rus 1.png" alt="">
+                    <h5 class="header__title" style="width: 100px;">Факультет довузовской подготовки</h5>
+                </div>
 
-            <div>
-                <a href="https://t.me/dovuzvstu">
-                    <img src="images/tg_link.png" alt="" width="40" height="40" style="margin: 10px; padding: 20px;">
-                </a>
 
-                <a href="https://vk.com/dovuzvstu">
-                    <img src="images/vk_link.png" alt="links" width="40" height="40"
-                        style="margin: 10px; padding: 20px;">
-                </a>
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#about">Lorem.</a>
+                    <a class="nav__link" href="#" data-scroll="#works">Ipsum.</a>
+                    <a class="nav__link" href="#" data-scroll="#footer">Dolor.</a>
+                </nav>
             </div>
-        </nav>
+        </div>
     </header>
 
-    <main>
-        <div
-            style="background:linear-gradient(rgba(96, 95, 95, 0.716), rgba(133, 142, 190, 0.881)),  url(images/vstu.jpg); background-repeat: no-repeat; background-size: cover; height: 600px; padding: 50px; margin-left: 150px; margin-right: 150px; margin-top: 30px;">
-            <h1
-                style="text-align: center; font-weight: 500;font-size:80px; font-family: 'Roboto', sans-serif; color: #ccc; ">
-                Дополнительное образование для школьников</h1>
-            <a href="https://docs.google.com/forms/d/1PD-cgqSXyeJk0kSLpFpMil34xSZQpRl-at44Opl6rAw/viewform?edit_requested=true"
-                style="display:flex; justify-content: center;">
-                <button type="button" class="btn btn-light"
-                    style=" width: 250px; height: 70px; border-radius: 5px; border: none;">
-                    <h5 style="font-family: 'Roboto', sans-serif; font-size:15px; color: #292e33; text-align: center;">
-                        Оставить заявку</h5>
-                </button>
-            </a>
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Довузовская подготовка</h1>
+                <base target="_blank"> <!-- Ссылка откроется в отдельной вкладке -->
+                <a class="btn"
+                    href="https://docs.google.com/forms/d/1PD-cgqSXyeJk0kSLpFpMil34xSZQpRl-at44Opl6rAw/viewform?edit_requested=true">
+                    Оставить заявку</a>
+            </div>
         </div>
+    </div>
 
-        <div
-            style="font-family: 'Roboto', sans-serif; margin-left: 100px; margin-right: 100px; margin-top: 30px; color: #292e33;">
+    <div
+        style="font-family: 'Roboto', sans-serif; margin-left: 100px; margin-right: 100px; margin-top: 30px; color: #292e33;">
 
-            <h2 style="font-weight: 600; font-size:45px;">О нас</h2>
-            <h4>Основная задача системы довузовской подготовки – сформировать интерес школьника к естественно-научным и
-                техническим
-                дисциплинам, сформировать коммуникативные компетенции, развить имеющие навыки. «Довуз ВолгГТУ»
-                объединяет структуры, занимающиеся дополнительным образованием школьников как по школьным предметам, так
-                и общеразвивающей подготовки. В общей сложности в 2021 году в университете обучались почти 800 детей в
-                возрасте от 11 до
-                18 лет.</h4>
+        <h2 style="font-weight: 600; font-size:45px;">О нас</h2>
+        <h4>Основная задача системы довузовской подготовки – сформировать интерес школьника к естественно-научным и
+            техническим
+            дисциплинам, сформировать коммуникативные компетенции, развить имеющие навыки. «Довуз ВолгГТУ»
+            объединяет структуры, занимающиеся дополнительным образованием школьников как по школьным предметам, так
+            и общеразвивающей подготовки. В общей сложности в 2021 году в университете обучались почти 800 детей в
+            возрасте от 11 до
+            18 лет.</h4>
 
-            <h2 style="font-weight: 600; font-size:45px;">Направления подготовки</h2>
-        </div>
+        <h2 style="font-weight: 600; font-size:45px;">Направления подготовки</h2>
+    </div>
 
     </main>
 
