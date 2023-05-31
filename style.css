@@ -7,18 +7,19 @@
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
-    height: 100vh;
-    min-height: 720px;
+    height: 150vh;
+    min-height: 1150px;
     position: relative;
 
-    background: url("images/Фон\ 3.png") center no-repeat;
+    background: url("images/Group\ 15.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 .intro__inner {
+    padding-top: 280px;
     display: flex;
     justify-content: space-between;
 }
@@ -30,6 +31,29 @@
     font-weight: 700;
     text-transform: uppercase;
     /* line-height: 1; */
+}
+
+.about_us {
+    padding-top: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_us_inner {
+    display: flex;
+    min-width: 300px;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #f0e9ff;
+}
+
+.about_title {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.about_text {
+    font-weight: lighter;
 }
 
 /* Header */
@@ -139,3 +163,5 @@
     background-color: #fff;
     color: #10069f;
 }
+
+/* Main */
